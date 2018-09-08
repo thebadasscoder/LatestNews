@@ -15,7 +15,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       saved: {
-        type: Sequelize.ARRAY
+        type: Sequelize.JSON
       },
       createdAt: {
         allowNull: false,

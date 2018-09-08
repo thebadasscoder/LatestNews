@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
   const Article = sequelize.define('Article', {
     title: DataTypes.STRING,
     link: DataTypes.STRING,
-    saved: DataTypes.ARRAY
+    saved: DataTypes.JSON
   }, {});
   Article.associate = function(models) {
     // associations can be defined here

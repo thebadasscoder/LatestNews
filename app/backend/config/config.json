@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "twilsonpierce",
+    "username": "tionnawilsonpierce",
     "password": null,
     "database": "template1",
     "host": "127.0.0.1",
-    "dialect": "postgresql"
+    "dialect": "postgres"
   },
   "test": {
-    "username": "root",
+    "username": "tionnawilsonpierce",
     "password": null,
     "database": "template1",
     "host": "127.0.0.1",
-    "dialect": "postgresql"
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
+    "username": "tionnawilsonpierce",
     "password": null,
     "database": "template1",
     "host": "127.0.0.1",
-    "dialect": "postgresql"
+    "dialect": "postgres"
   }
 }
